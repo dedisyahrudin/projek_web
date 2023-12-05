@@ -34,7 +34,7 @@ ul li a:hover {
     color: black;
 }
 
-ul li.active a {
+ul li a:active {
     background-color: white;
     color: black;
 }
@@ -76,4 +76,48 @@ ul li.active a {
 .btn:hover {
     background-color: white;
     color: black;
+}
+
+
+
+
+.jumbotron{
+    width: 100%;
+    /* border: 1px solid white; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    z-index: 1;
+    
+}
+
+.img-depan{
+    display: flex;
+    margin-right: 0px;
+    width: 50%;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.jumbotron .judul{
+    font-weight: bold;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* color: solid black; */
+    font-size: 30px;
+
+}
+
+.neh {
+    line-height: 100px;
+    letter-spacing: 7px;
+}
+
+.img-dua{
+    display: flex;
+    margin-right: 0px;
+    width: 50%;
+    justify-content: center;
+    /* border: 1px solid black; */
 }
